@@ -47,6 +47,23 @@ For example:
     on multiple lines as needed.
 */
 ```
+### Reserved Words (Keywords)
+
+Reserved words, also known as **keywords**, are specific words with predefined meanings in the C++ language. They serve as the building blocks for creating instructions, expressions, and program structures. Since they are reserved for specific purposes, programmers cannot use them as identifiers (variable names, function names, etc.) for their code. Understanding these reserved words is essential as they form the backbone of C++ syntax and define the language's grammar. 
+
+For example:
+
+```cpp
+    int, float, double, bool, if, else, do, while, return, const
+```
+
+*Note: Reserve words are usually highlighted in different color by the IDE.*
+
+### Identifiers
+
+In the world of programming, identifiers play a crucial role in defining and accessing various entities in a codebase. In C++, an identifier is a name given to a program element such as variables, functions, classes, objects, labels, and user-defined types. These names act as labels, allowing programmers to reference and manipulate these entities within their code.
+
+This section aims to provide a comprehensive understanding of identifiers in C++, their rules, best practices, and how they contribute to the overall structure and readability of a C++ program.
 
 ## Input Statements
 
