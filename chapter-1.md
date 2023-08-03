@@ -25,6 +25,28 @@ As aspiring programmers embark on their journey to learn C++, they encounter sev
 
 Functions are essential elements of C++ that enable programmers to encapsulate blocks of code and execute them when needed. They facilitate modular programming, where code is organized into smaller, reusable components, enhancing code readability and maintainability. Functions can accept arguments, perform specific tasks, and return values to the caller. Understanding comments, reserved words, identifiers, and functions empowers developers to write clean, efficient, and well-structured C++ code that serves as a solid foundation for creating sophisticated applications and software solutions. As programmers master these basic elements of C++, they lay a solid groundwork to explore the language’s more advanced features and tackle complex programming challenges. We will go into more detail on this topic in a later chapter.
 
+### Comments
+Comments play a crucial role in any programming language, providing a means for programmers to annotate their code. They are non-executable lines of text intended for human readers and are ignored by the compiler during code compilation. Comments serve as documentation, explanations, or reminders for the code logic, making it easier for developers to understand, maintain, and collaborate on projects.
+
+C++ allows for two styles of comments. The first is the in-line comment. This is done by using  `//` (two foraward slashes). All text following this symbol is part of the comment.
+
+For example:
+
+```cpp
+int name; //student name
+tax = cost * 0.12; //tax amount on cost
+```
+
+The second type of comment allowed is multiple-line comments. This allows the programmer to write longer comments that cover multiple lines. Multiple-line comments are enclosed in /* and */. 
+
+For example:
+
+```cpp
+/* 
+    Comments can be written
+    on multiple lines as needed.
+*/
+```
 
 ## Input Statements
 
