@@ -739,9 +739,13 @@ Number of apples, oranges, and bananas: 10 6 4
 ## References
 
 C++ strings. Programiz. (n.d.-a). https://www.programiz.com/cpp-programming/strings 
+
 C++ type conversion. Programiz. (n.d.-b). https://www.programiz.com/cpp-programming/type-conversion 
+
 Deitel, P. J., &amp; Deitel, H. M. (2020). C++ how to program. Pearson. 
+
 GeeksforGeeks. (2023, March 16). C++ variables. GeeksforGeeks. https://www.geeksforgeeks.org/cpp-variables/ 
+
 Malik, D. S. (2018). C++ programming: From problem analysis to program design. Cengage Learning. 
 
 **Editor:** Vanessa Coote (vacoot89)
