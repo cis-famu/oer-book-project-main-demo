@@ -726,6 +726,7 @@ variable
 ## Programming Exercises
 
 **Fruit Basket**
+
 Lucas went to the market to buy fruits for a fruit basket for a party. He wants to create a balanced mix of three types of fruits: apples, oranges, and bananas. However, he's not sure how many of each fruit to buy. Each of his friends prefers a different type of fruit. The program should input the number of friends attending the gathering who prefer apples, oranges, and bananas, respectively. Your program should output three integers, representing the total number of each type of fruit Lucas should buy for the fruit basket.
 
 To calculate the number of fruits for each type, Lucas needs to ensure that the ratio of apples, oranges, and bananas matches the ratio of his friends' preferences. Since he wants a balanced mix, he will divide the number of each fruit preference by the smallest value among them and use that as the ratio.
