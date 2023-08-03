@@ -126,10 +126,12 @@ Identifiers are the building blocks of a C++ program, allowing programmers to cr
 1. True/False: Functions in C++ are used primarily to enhance code readability and maintainability by organizing code into smaller, reusable components.
 
 2. Which of the following elements are explored as foundational components of C++ in this section?
+
    a) Loops, arrays, pointers, and classes
    b) Comments, reserved words, identifiers, and functions
    c) Variables, constants, conditionals, and libraries
    d) Inheritance, polymorphism, encapsulation, and abstraction
+   
 3. Functions in C++ can accept _______ , perform specific tasks, and return values to the caller.
 
 *Answers: 1. true  2. b  3. arguments*
@@ -605,3 +607,141 @@ ______ << "Hello, World!";
 3. In C++, when using "cout" to display multiple values on the same line, you can separate the values with commas to automatically add spaces between them.
 
 *Answers: 1. cout 2. b 3. false*
+
+## Creating a C++ Program
+
+Creating a simple C++ program involves a series of steps to define, write, compile, and execute the code. This section provides a step-by-step guide to create a basic C++ program, from setting up the development environment to running the program.
+
+### Step 1 - Install a C++ Compiler
+
+The first step is to install a C++ compiler on your system. Several popular C++ compilers are available, such as GCC (GNU Compiler Collection), Clang, and Microsoft Visual C++. Choose the one that best suits your platform and requirements.
+
+### Step 2 - Choose an Integrated Development Environment (IDE) (Optional)
+
+While not mandatory, using an Integrated Development Environment (IDE) can significantly simplify the development process. IDEs provide a user-friendly interface for code writing, debugging, and managing projects. Some popular C++ IDEs include Visual Studio Code, Code::Blocks, and JetBrains CLion.
+
+### Step 3 - Create a New C++ Source File
+
+Once the compiler and IDE (if chosen) are set up, create a new C++ source file with the ".cpp" extension. This file will contain the C++ code for your program. You can use a text editor or the built-in code editor in your chosen IDE.
+
+### Step 4 - Write the C++ Code
+
+In the C++ source file, start writing your code. A simple C++ program typically consists of the `main` function, which is the entry point of the program. The `main` function contains the code that will be executed when the program runs.
+
+Here's an example of a simple C++ program that prints "Hello, World!" to the console:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+```
+
+### Step 5 - Save the Source File
+
+After writing the C++ code, save the source file with a descriptive name and the ".cpp" extension. This will allow the compiler to recognize it as a C++ source file.
+
+### Step 6 - Compile the Program
+
+To convert the human-readable C++ code into machine-executable instructions, you need to compile the program. Open a terminal or the command prompt, navigate to the directory where the source file is saved, and use the appropriate compiler command to compile the program.
+
+For example, using GCC:
+
+```
+g++ -o my_program my_program.cpp
+```
+
+This will produce an executable file named "my_program" (or whatever name you choose) in the same directory.
+
+### Step 7 - Run the Program
+
+Once the program is successfully compiled, you can run it by executing the generated executable file.
+
+For example, on Windows:
+
+```
+my_program.exe
+```
+
+On Linux/macOS:
+
+```
+./my_program
+```
+
+After running the program, you should see the output "Hello, World!" displayed on the console.
+
+### Step 8 - Debug and Test (Optional)
+
+If your program doesn't produce the expected output or behaves unexpectedly, you may need to debug and test it. Debuggers available in some IDEs can help identify and fix errors in the code. Additionally, thorough testing ensures that your program works correctly under various scenarios.
+
+## Chapter Summary
+
+- Functions are essential elements of C++ that facilitate modular programming, where code is organized into smaller, reusable components, enhancing code readability and maintainability.
+- Comments are non-executable lines of text intended for human readers and are ignored by the compiler during code compilation and play a crucial role in any programming language, providing a means for programmers to annotate their code.
+- There are two types of comments inline (//) and multiple line (/* */)
+- Reserved words, also known as keywords, are specific words with predefined meanings in the C++ language.
+- An identifier is a name given to a program element, such as variables, functions, classes, objects, labels, and user-defined types, and acts as labels, allowing programmers to reference and manipulate these entities within their code.
+- Data types are fundamental building blocks that define the type of data a variable can hold
+- There are four main categories of built-in data types: integer, floating point, character, and boolean. The most common data types are int, long, float, double, char, and bool. 
+- Strings are a fundamental data type used to store sequences of characters, such as words, sentences, or even entire paragraphs.
+- Strings require the inclusion of the `<string>` header
+- Initializing variables is important for preventing undefined behavior, avoiding bugs, increasing code readability, and creating predictable behavior
+- The assignment operator (=) is used to assign a value to a variable 
+- C++ supports chained assignment, which allows multiple variables to be assigned the same value in a single statement
+- The main operators in C++ are +, -, *, /, and %
+- Type casting allows programmers to explicitly change the data type of a variable, while type conversions automatically occur when data of one type is assigned to another type. 
+- The standard input stream (std::cin) is used to read data from the user via the keyboard. 
+- To read input from the user, the >> extraction operator
+
+## Key Terms
+
+assignment operator
+    : =; assigns whatever is on the right side to the variable on the left side
+    
+data types
+    : a set of values together with a set of operations
+
+function
+    : a collection of statements; when activated, or executed, it accomplishes something
+    
+identifiers
+    : a C++ identifier consists of letters, digits, and the underscore character (`_`); it must begin with a letter or underscore
+    
+initialized
+    : the first time a value is placed in the variable
+    
+keywords
+    : reserved words that have predefined meanings and functionalities within the programming language
+
+output statement
+    : an output on the standard output device via cout and <<
+
+variable
+    : A memory location whose content may change during program execution.
+
+## Programming Exercises
+
+**Fruit Basket**
+Lucas went to the market to buy fruits for a fruit basket for a party. He wants to create a balanced mix of three types of fruits: apples, oranges, and bananas. However, he's not sure how many of each fruit to buy. Each of his friends prefers a different type of fruit. The program should input the number of friends attending the gathering who prefer apples, oranges, and bananas, respectively. Your program should output three integers, representing the total number of each type of fruit Lucas should buy for the fruit basket.
+
+To calculate the number of fruits for each type, Lucas needs to ensure that the ratio of apples, oranges, and bananas matches the ratio of his friends' preferences. Since he wants a balanced mix, he will divide the number of each fruit preference by the smallest value among them and use that as the ratio.
+
+**Example**
+```
+Preferences (apples, oranges, bananas): 5 3 2
+Number of apples, oranges, and bananas: 10 6 4
+```
+
+## References
+
+C++ strings. Programiz. (n.d.-a). https://www.programiz.com/cpp-programming/strings 
+C++ type conversion. Programiz. (n.d.-b). https://www.programiz.com/cpp-programming/type-conversion 
+Deitel, P. J., &amp; Deitel, H. M. (2020). C++ how to program. Pearson. 
+GeeksforGeeks. (2023, March 16). C++ variables. GeeksforGeeks. https://www.geeksforgeeks.org/cpp-variables/ 
+Malik, D. S. (2018). C++ programming: From problem analysis to program design. Cengage Learning. 
+
+**Editor:** Vanessa Coote (vacoot89)
